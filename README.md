@@ -23,18 +23,19 @@ Project based on 3-layer architecture:
 
 # Technologies
 - Java 11
-- MySQL
+- MySQL 8.0.29
 - JDBC
 - Servlet Api
 - JSP
 - JSTL
-- TomCat
+- TomCat 9.0.64
 
 # Setup
 1. Fork this project.
-2. Install MySQL and MySQL Workbench.
+2. Install MySQL.
 3. Initialize the MySQL database using the init.sql file.
-4. Configure Apache Tomcat.
-5. Then in MySQL Workbench create and open new connection with your credentials or use the existing one.
-6. In the /util/ConnectionUtil.java class change the username and password  properties to the ones you specified when installing MySQL.
-7. After starting the project, click on "Create a new Driver" to add the first driver.
+4. Install Tomcat version 9.0.*
+5. Configure Apache Tomcat.
+6. Then in MySQL create and open new connection with your credentials or use the existing one.
+7. In the /util/ConnectionUtil.java class change the username and password  properties to the ones you specified when installing MySQL.
+8. After starting the project, click on "Create a new Driver" to add the first driver.
